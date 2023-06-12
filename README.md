@@ -1,4 +1,4 @@
-# Lista de Exercícios
+# Lista de Exercícios DREW
 
 Este é um repositório contendo uma lista de exercícios projetados para ajudar você a melhorar suas habilidades em diferentes tópicos de programação. Sinta-se à vontade para contribuir com novos exercícios e resoluções.
 
