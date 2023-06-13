@@ -1,0 +1,100 @@
+<!-- Construir uma página HTML que apresente uma tabela ('table') com os dados de países, capitais e continente, conforme abaixo:
+ 
+País        Capital         Continente
+
+Brasil      Brasília        América
+Alemanha	Berlim	        Europa
+Argentina	Buenos Aires	América
+Estónia	    Talim	        Europa
+Etiópia	    Adis Abeba	    África
+Fiji	    Suva	        Oceania
+Filipinas	Manila	        Ásia
+
+Obs.: Neste exercício não é obrigatória a estilização CSS, mas pode ser utilizada caso queira. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[M1S03] Ex 3 - Construir página HTML (table)</title>
+    <style>
+      table,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table align="center">
+      <tr>
+        <th><h2>País 🌍</h2></th>
+        <th><h2>Capital 🏙️</h2></th>
+        <th><h2>Continente 🗺️</h2></th>
+      </tr>
+
+      <tr>
+        <th>Brasil 🌴</th>
+        <th>Brasilia</th>
+        <th>América do Sul</th>
+      </tr>
+
+      <tr>
+        <th>Alemanha 🍺</th>
+        <th>Berlim</th>
+        <th>Europa</th>
+      </tr>
+
+      <tr>
+        <th>Argentina 🥩</th>
+        <th>Buenos Aires</th>
+        <th>América do Sul</th>
+      </tr>
+
+      <tr>
+        <th>Estónia ❄️</th>
+        <th>Talim</th>
+        <th>Europa</th>
+      </tr>
+
+      <tr>
+        <th>Etiópia ☕</th>
+        <th>Adis Abeba</th>
+        <th>África</th>
+      </tr>
+
+      <tr>
+        <th>Fiji 🏝️</th>
+        <th>Suva</th>
+        <th>Oceania</th>
+      </tr>
+
+      <tr>
+        <th>Filipinas 🌋</th>
+        <th>Manila</th>
+        <th>Ásia</th>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
+    <table align="center" border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td align="center">
+          <p><strong>Andre Leonardo Rocha Vieira</strong></p>
+          <p>Aluno DevInHouse - Turma Zucchetti</p>
+          <p>
+            🌐:
+            <a href="https://github.com/vdr3w/trellodevinhouse" target="_blank"
+              >Repositorio GitHub</a
+            >
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
