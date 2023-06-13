@@ -1,37 +1,54 @@
+<!-- M1S03 - EXERCICIO 1 -->
+<!-- O título no navegador ('title') deve ser 'Exercicio 01'. -->
+<!-- No corpo da página ('body'), inserir um um elemento 'h1' com o nome do aluno. -->
+<!-- Após uma quebra de linha ('break'), inserir uma 'div' e dentro dela um parágrafo ('p') com a frase 'Exercício número um do curso', onde 'número um' deve estar em itálico -->
+<!-- Adicionar mais um parágrafo nesta 'div' com a frase:
+'HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web', onde a sigla 'HTML' deve estar em negrito no texto. -->
+<!-- Adicionar mais uma 'div', e dentro dela um link (tag 'a') com a descrição "Artigo sobre HTML" que deve referenciar a URL 'HTML: Linguagem de Marcação de Hipertexto | MDN ' (ou seja, clicando no link devemos ser redirecionados para esta página). -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- O título no navegador ('title') de ser 'Exercicio 01'. -->
     <title>Exercicio 01</title>
   </head>
-
-  <!-- No corpo da página ('body'), inserir um um elemento 'h1' com o nome do aluno. -->
   <body>
     <h1>Aluno: Andre Leonardo Rocha Vieira</h1>
     <br />
-
-    <!-- Após uma quebra de linha ('break'), inserir uma 'div' e dentro dela um parágrafo ('p') com a frase 'Exercício número um do curso', onde 'número um' deve estar em itálico -->
     <div>
       <p>Exercício <i>número um</i> do curso</p>
-
-      <!-- Adicionar mais um parágrafo nesta 'div' com a frase:
-'HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web', onde a sigla 'HTML' deve estar em negrito no texto. -->
       <p>
         <b>HTML</b> (Linguagem de Marcação de HiperTexto) é o bloco de
         construção mais básico da web. Define o significado e a estrutura do
         conteúdo da web
       </p>
     </div>
-    <br />
-    <!-- Adicionar mais uma 'div', e dentro dela um link (tag 'a') com a descrição "Artigo sobre HTML" que deve referenciar a URL 'HTML: Linguagem de Marcação de Hipertexto | MDN ' (ou seja, clicando no link devemos ser redirecionados para esta página). -->
     <div>
-      <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+      <a
+        href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+        target="_blank"
         >Artigo sobre HTML</a
       >
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <table align="center" border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td align="center">
+          <p><strong>Andre Leonardo Rocha Vieira</strong></p>
+          <p>Aluno DevInHouse - Turma Zucchetti</p>
+          <p>
+            🌐:
+            <a href="https://github.com/vdr3w/trellodevinhouse" target="_blank"
+              >Repositorio GitHub</a
+            >
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
