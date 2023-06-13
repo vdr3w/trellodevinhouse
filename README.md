@@ -6,7 +6,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 
 ## Sumário
 
-1. [Semana 1](#semana 1)
+1. [Semana 1](#semana-1)
 2. [Semana 2](#semana02)
 3. [Semana 3](#semana03)
 4. [Semana 4](#semana04)
