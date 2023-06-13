@@ -18,6 +18,29 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 - [[M1S03] Ex 1](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%201/index.html)
 - [[M1S03] Ex 2](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%202/index.html)
 - [[M1S03] Ex 3](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%203/index.html)
-- ...
+- [[M1S03] Ex 4](sem link)
+- [[M1S03] Ex 5](sem link)
 
+### Semana 2
 
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+
+### Semana 3
+
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+
+### Semana 4
+
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
+- [[M1SXX] Ex X](sem link)
