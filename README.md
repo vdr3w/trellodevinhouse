@@ -15,7 +15,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 
 ### Estruturas de Controle
 
-- [Exercício 1](/[M1S03]_Ex_1)
+- [Exercício 1](/[M1S03] Ex 1)
 - [Exercício 2](/Estruturas_de_Controle/exercicio2.md)
 - [Exercício 3](/Estruturas_de_Controle/exercicio3.md)
   ...
