@@ -18,7 +18,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 - [[M1S03] Ex 1 - Construir página HTML (tags básicas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%201/index.html)
 - [[M1S03] Ex 2 - Construir página HTML (listas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%202/index.html)
 - [[M1S03] Ex 3 - Construir página HTML (table)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%203/index.html)
-- [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S03] Ex 4 - Construir página HTML com estilização CSS (Form de Cadastro)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%204)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 
 ### Semana 2
