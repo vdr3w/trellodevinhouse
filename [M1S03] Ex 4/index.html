@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=VT323&display=swap"
+      rel="stylesheet" />
+    <!--  -->
+    <title>
+      [M1S03] Ex 4 - Construir página HTML com estilização CSS (Form de
+      Cadastro)
+    </title>
+  </head>
+  <body>
+    <div>
+      <h1>FORMULARIO DE CADASTRO</h1>
+    </div>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- FORM -->
+      <form>
+        <!-- NAME -->
+        <div>
+          <label
+            for="name"
+            data-tooltip="Digite seu nome completo"
+            data-flow="top"
+            >Nome:</label
+          >
+          <input
+            type="text"
+            id="Nome"
+            name="nome"
+            required
+            placeholder="Joao da Silva" /><br />
+        </div>
+
+        <!-- DATA NASCIMENTO -->
+        <div>
+          <label
+            for="dateBirth"
+            data-tooltip="Formato: 01/01/2023"
+            data-flow="top"
+            >Data de Nascimento:</label
+          >
+          <input
+            type="text"
+            id="dateBirth"
+            name="dateBirth"
+            required
+            placeholder="dd/mm/aaaa" /><br />
+        </div>
+
+        <!-- CPF -->
+        <div>
+          <label
+            for="cpf"
+            data-tooltip="Formato: 123.456.789-12"
+            data-flow="top"
+            required
+            >CPF:</label
+          >
+          <input
+            type="text"
+            id="cpf"
+            name="cpf"
+            required
+            placeholder="123.456.789-12" /><br />
+        </div>
+
+        <!-- MUNICIPIO -->
+        <div>
+          <label
+            for="city"
+            data-tooltip="Escolha o municio de sua residencia"
+            data-flow="top"
+            required
+            >Municipio:</label
+          >
+          <select class="city" name="city" id="city">
+            <option value="selecione" disabled selected>
+              Selecione a cidade:
+            </option>
+            <option value="cwb">Curitiba</option>
+            <option value="cci">Concordia</option>
+            <option value="bc">Bauneario Camboriu</option>
+            <option value="joi">Joinville</option></select
+          ><br /><br />
+        </div>
+
+        <!-- BOTAO SUBMIT -->
+        <input class="submit" type="submit" value="Cadastrar" />
+      </form>
+    </div>
+    <!-- ASSINATURA -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+      <table>
+        <tr>
+          <td>
+            <p><strong>Andre Leonardo Rocha Vieira</strong></p>
+            <p class="zucchetti">Aluno DevInHouse - <i>Turma Zucchetti</i></p>
+            <p>
+              🌐:
+              <a
+                href="https://github.com/vdr3w/trellodevinhouse"
+                target="_blank"
+                >Repositório GitHub</a
+              >
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- /* ASSINATURA */ -->
+  </body>
+</html>
