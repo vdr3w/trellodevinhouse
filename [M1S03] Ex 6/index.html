@@ -1,0 +1,160 @@
+<!-- Construção de Site
+
+Construir uma página HTML imitando um site de agência de viagens.
+
+Use a figura em anexo como base para o layout e textos a serem incluídos na página.
+
+O intuito do exercício é além de praticar tags html, exercitar o uso de seletores e propriedades CSS e posicionamento com flexbox.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <div class="topnav">
+      <a class="active" href="#home">DevInHouse</a>
+
+      <div class="topnav-right">
+        <a href="#news">Destinos</a>
+        <a href="#contact">Pacotes</a>
+        <a href="#search">Sobre Nos</a>
+        <a href="#about">Contato</a>
+      </div>
+    </div>
+    <!--  -->
+    <h2>Responsive Image Gallery</h2>
+
+    <h4>Resize the browser window to see the effect.</h4>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./images/lights.jpg">
+          <img
+            src="./images/lights.jpg"
+            alt="Cinque Terre"
+            width="600"
+            height="400" />
+        </a>
+        <div class="title1">Cidade1</div>
+        <div class="desc">Add a description of the image here</div>
+        <div class="verMaisGaleria">
+          <button class="button" type="button">Ver Mais!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./images/lights.jpg">
+          <img
+            src="./images/lights.jpg"
+            alt="Forest"
+            width="600"
+            height="400" />
+        </a>
+        <div class="title1">Cidade2</div>
+        <div class="desc">Add a description of the image here</div>
+        <div class="verMaisGaleria">
+          <button class="button" type="button">Ver Mais!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./images/lights.jpg">
+          <img
+            src="./images/lights.jpg"
+            alt="Northern Lights"
+            width="600"
+            height="400" />
+        </a>
+        <div class="title1">Cidade3</div>
+        <div class="desc">Add a description of the image here</div>
+        <div class="verMaisGaleria">
+          <button class="button" type="button">Ver Mais!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./images/lights.jpg">
+          <img
+            src="./images/lights.jpg"
+            alt="Mountains"
+            width="600"
+            height="400" />
+        </a>
+        <div class="title1">Cidade4</div>
+        <div class="desc">Add a description of the image here</div>
+        <div class="verMaisGaleria">
+          <button type="button" class="button">Ver Mais!</button>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <div class="clearfix"></div>
+    <div style="padding: 50px"></div>
+
+    <div class="flex-container" id="flex-container">
+      <div class="flex-items">
+        <input
+          type="text"
+          id="origem"
+          name="origem"
+          required
+          placeholder="Informe a Origem" />
+      </div>
+      <div class="flex-items">
+        <input
+          type="text"
+          id="destino"
+          name="destino"
+          required
+          placeholder="Informe o Destino" />
+      </div>
+      <div class="flex-items">
+        <label class="ida" for="ida">Ida</label>
+        <input
+          type="text"
+          id="ida"
+          name="ida"
+          required
+          placeholder="dd/mm/aaaa" />
+      </div>
+      <div class="flex-items">
+        <label class="volta" for="volta">Volta</label>
+        <input
+          type="text"
+          id="volta"
+          name="volta"
+          required
+          placeholder="dd/mm/aaaa" />
+      </div>
+      <div class="flex-items2">
+        <button class="buttonProcurar" type="button">Procurar</button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-text">DEVinHOUSE</div>
+      <ul class="footer-list">
+        <li>Andre Leonardo Rocha Vieira</li>
+        <li>Turma Zucchetti</li>
+        <li>
+          <a href="https://github.com/vdr3w/trellodevinhouse" target="_blank"
+            >Repositório GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+  </footer>
+</html>
