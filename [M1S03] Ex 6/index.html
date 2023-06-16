@@ -13,7 +13,22 @@ O intuito do exercício é além de praticar tags html, exercitar o uso de selet
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Lobster&family=Mukta:wght@500&family=Oswald&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=VT323&display=swap"
+      rel="stylesheet" />
+    <!--  -->
+    <title>
+      [M1S03] Ex 6 - Construir página HTML com estilização CSS (Site Viagens)
+    </title>
   </head>
   <body>
     <!-- NAV BAR -->
@@ -28,81 +43,105 @@ O intuito do exercício é além de praticar tags html, exercitar o uso de selet
       </div>
     </div>
     <!--  -->
-    <h2>Responsive Image Gallery</h2>
+    <h1>Agencia de Viagens Pacote Surpresa</h1>
 
-    <h4>Resize the browser window to see the effect.</h4>
+    <h3>Descubra lugares que você nunca imaginou que existiam!</h3>
 
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./images/lights.jpg">
-          <img
-            src="./images/lights.jpg"
-            alt="Cinque Terre"
-            width="600"
-            height="400" />
-        </a>
-        <div class="title1">Cidade1</div>
-        <div class="desc">Add a description of the image here</div>
-        <div class="verMaisGaleria">
-          <button class="button" type="button">Ver Mais!</button>
+    <!-- lugares -->
+    <div class="todasImg">
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="./images/inferno.jpg">
+            <img
+              src="./images/inferno.jpg"
+              alt="Porta para o Inferno"
+              width="600"
+              height="400" />
+          </a>
+          <div class="title1">Porta para o Inferno, Turcomenistão</div>
+          <div class="desc">
+            <b
+              >Uma cratera que arde em chamas desde 1971, proporcionando uma
+              experiência "infernal".</b
+            >
+          </div>
+          <div class="verMaisGaleria">
+            <button class="button" type="button">Ver Mais!</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./images/lights.jpg">
-          <img
-            src="./images/lights.jpg"
-            alt="Forest"
-            width="600"
-            height="400" />
-        </a>
-        <div class="title1">Cidade2</div>
-        <div class="desc">Add a description of the image here</div>
-        <div class="verMaisGaleria">
-          <button class="button" type="button">Ver Mais!</button>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="./images/bonecas.jpg">
+            <img
+              src="./images/bonecas.jpg"
+              alt="Ilha Das Bonecas"
+              width="600"
+              height="400" />
+          </a>
+          <div class="title1">Ilha das Bonecas, México</div>
+          <div class="desc">
+            <b
+              >Uma ilha repleta de centenas de bonecas penduradas,
+              decompondo-se, decapitadas.
+            </b>
+          </div>
+          <div class="verMaisGaleria">
+            <button class="button" type="button">Ver Mais!</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./images/lights.jpg">
-          <img
-            src="./images/lights.jpg"
-            alt="Northern Lights"
-            width="600"
-            height="400" />
-        </a>
-        <div class="title1">Cidade3</div>
-        <div class="desc">Add a description of the image here</div>
-        <div class="verMaisGaleria">
-          <button class="button" type="button">Ver Mais!</button>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="./images/catacumba.jpg">
+            <img
+              src="./images/catacumba.jpg"
+              alt="Catacumbas Paris"
+              width="600"
+              height="400" />
+          </a>
+          <div class="title1">Catacumbas, Paris</div>
+          <div class="desc">
+            <b
+              >Explore os túneis sombrios repletos dos ossos de mais de seis
+              milhões de pessoas.
+            </b>
+          </div>
+          <div class="verMaisGaleria">
+            <button class="button" type="button">Ver Mais!</button>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="./images/lights.jpg">
-          <img
-            src="./images/lights.jpg"
-            alt="Mountains"
-            width="600"
-            height="400" />
-        </a>
-        <div class="title1">Cidade4</div>
-        <div class="desc">Add a description of the image here</div>
-        <div class="verMaisGaleria">
-          <button type="button" class="button">Ver Mais!</button>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="./images/praiavidro.jpg">
+            <img
+              src="./images/praiavidro.jpg"
+              alt="Praia de Vidro"
+              width="600"
+              height="400" />
+          </a>
+          <div class="title1">Praia de Vidro, Califórnia</div>
+          <div class="desc">
+            <b
+              >Desfrute de um passeio por uma praia cintilante com pedaços de
+              vidro lapidados pelas ondas ao longo de décadas.</b
+            >
+          </div>
+          <div class="verMaisGaleria">
+            <button type="button" class="button">Ver Mais!</button>
+          </div>
         </div>
       </div>
+      <div></div>
+      <div class="clearfix"></div>
+      <div style="padding: 50px"></div>
     </div>
-    <div></div>
-    <div class="clearfix"></div>
-    <div style="padding: 50px"></div>
 
+    <!-- PESQUISA DE DATAS -->
     <div class="flex-container" id="flex-container">
       <div class="flex-items">
         <input
@@ -156,5 +195,24 @@ O intuito do exercício é além de praticar tags html, exercitar o uso de selet
         </li>
       </ul>
     </div>
+    <!-- assinatura drew -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <table align="center" border="1" cellpadding="5" cellspacing="0">
+      <tr>
+        <td align="center">
+          <p><strong>Andre Leonardo Rocha Vieira</strong></p>
+          <p>Aluno DevInHouse - Turma Zucchetti</p>
+          <p>
+            🌐:
+            <a href="https://github.com/vdr3w/trellodevinhouse" target="_blank"
+              >Repositorio GitHub</a
+            >
+          </p>
+        </td>
+      </tr>
+    </table>
   </footer>
 </html>
