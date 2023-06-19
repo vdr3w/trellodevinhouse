@@ -1,0 +1,133 @@
+html,
+body,
+div,
+header,
+main,
+footer,
+form,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+ol,
+li span {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.navbar img {
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-right: 50px;
+}
+
+.navbar-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+.flex-item.side {
+  justify-content: space-between;
+}
+
+.center {
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  /* Adicione o seu CSS para os itens centrados aqui */
+}
+
+.center h1,
+.center h3,
+.center h5 {
+  margin: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.side .text {
+  /* Adicione o seu CSS para o texto aqui */
+}
+
+.side .image {
+  /* Adicione o seu CSS para as imagens aqui */
+}
+
+footer {
+  /* Adicione o seu CSS para o rodapé aqui */
+}
