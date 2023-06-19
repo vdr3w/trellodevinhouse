@@ -24,29 +24,34 @@ li span {
 
 html,
 body {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 }
 
+/* <NAVBAR */
 .navbar {
+  height: 65px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #000;
   color: #fff;
-  padding-left: 50px;
+  padding: 5px 0px;
 }
 
-.navbar img {
+.navbar > h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 45px; /* Ajuste o tamanho da fonte conforme necessário */
+  color: red;
+  padding-left: 10px;
 }
 
 .navbar-menu {
@@ -60,12 +65,43 @@ body {
   color: #fff;
   text-decoration: none;
 }
+/* RIGHTMENU */
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#language {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* NAVBAR> */
 
 .flex-container {
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  background-color: #fff;
 }
 
 .flex-item {
@@ -74,11 +110,28 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  padding-top: 70px;
+}
+
+.flex-container,
+.flex-item {
+  flex-grow: 1;
 }
 
 .flex-item.side {
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 50vw;
+  padding-right: 50vw;
+}
+
+.flex-item.h1,
+.flex-item.h3 {
+  text-align: center;
+}
+
+.textside {
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .center {
@@ -122,12 +175,83 @@ body {
 
 .side .text {
   /* Adicione o seu CSS para o texto aqui */
+  color: #fff;
 }
 
 .side .image {
   /* Adicione o seu CSS para as imagens aqui */
 }
 
+/* <vantagens acima do footer */
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+}
+
+.advantages h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.advantage {
+  text-align: center;
+}
+
+.center,
+.side,
+.advantages {
+  border-bottom: 2px solid gray;
+}
+
+.advantages:last-of-type {
+  border-bottom: none;
+}
+
+.side,
+.advantages {
+  background: linear-gradient(to right, #000, #252525, #5e5e5e);
+}
+
 footer {
-  /* Adicione o seu CSS para o rodapé aqui */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-column a {
+  margin: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-column a:hover {
+  color: #ccc;
 }
