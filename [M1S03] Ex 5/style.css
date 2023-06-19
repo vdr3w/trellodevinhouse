@@ -119,19 +119,27 @@ body {
 
 .flex-item.side {
   justify-content: space-around;
-  padding-left: 50vw;
-  padding-right: 50vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
-.flex-item.h1,
-.flex-item.h3 {
+.flex-item.h2,
+.flex-item.p {
   text-align: center;
 }
 
 .textside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #fff;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textside > p {
+  margin: 10px;
+  font-size: 13px;
 }
 
 .center {
@@ -178,7 +186,7 @@ body {
   color: #fff;
 }
 
-.side .image {
+.image {
   /* Adicione o seu CSS para as imagens aqui */
 }
 
@@ -206,13 +214,17 @@ body {
 }
 
 .advantage {
-  text-align: center;
+  text-align: left;
+  margin-top: 2px;
+  background-color: #464646;
+  padding: 3px;
+  width: 200px;
 }
 
 .center,
 .side,
 .advantages {
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #0a0036;
 }
 
 .advantages:last-of-type {
@@ -221,7 +233,7 @@ body {
 
 .side,
 .advantages {
-  background: linear-gradient(to right, #000, #252525, #5e5e5e);
+  background: linear-gradient(to right, #000, #040016, #0a0036);
 }
 
 footer {
@@ -234,9 +246,10 @@ footer {
   color: #fff;
 }
 
-footer p {
-  text-align: center;
+footer a {
+  text-align: left;
   flex: 1;
+  font-size: 10px;
 }
 
 .footer-column {
@@ -255,3 +268,48 @@ footer p {
 .footer-column a:hover {
   color: #ccc;
 }
+
+/* ASSINATURA */
+table {
+  color: #000000;
+  margin: auto;
+  border-collapse: separate;
+  border: 3px solid black;
+  background-color: rgb(255, 245, 232);
+  box-shadow: 2px 2px 2px 0px rgba(128, 0, 0, 1);
+}
+
+td {
+  text-align: center;
+}
+
+tr {
+  padding: 25px;
+}
+
+p {
+  margin: 9px;
+}
+
+strong {
+  font-size: 22px;
+  font-family: "Lobster", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: underline;
+}
+
+.zucchetti {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  background: #800000;
+  background: linear-gradient(to right, #800000 0%, #004dff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1px;
+}
+/* ASSINATURA */
