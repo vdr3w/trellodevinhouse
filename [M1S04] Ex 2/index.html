@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Frete</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-area">
+        <h2>Calculadora de Frete</h2>
+        <input
+          type="number"
+          id="pesoProduto"
+          placeholder="Peso do Produto (Kg)" />
+        <input type="number" id="distancia" placeholder="Distância (Km)" />
+        <button onclick="calcularFrete()">Calcular</button>
+      </div>
+      <div id="resultado" class="result-area">
+        <span id="result-content"></span>
+        <button id="reset-button" onclick="resetCalculadora()">
+          Calcular novamente
+        </button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
