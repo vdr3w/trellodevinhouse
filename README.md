@@ -25,7 +25,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 ### Semana 2
 
 - [[M1S04] Ex 1 - Github classroom (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 2 - Cálculo de Frete (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 2 - Cálculo de Frete (HTML+CSS+JS)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S04%5D%20Ex%202)
 - [[M1S04] Ex 3 - Cálculo de IMC (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 4 - Cálculo de média (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 5 - Cálculo FGTS (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
