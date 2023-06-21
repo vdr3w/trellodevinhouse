@@ -33,6 +33,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHous, da
 - [[M1S04] Ex 7 - Carta salário (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 8 - Lanchonete online (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 9 - Calculadora Básica (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex Extra - Clone Tela Login Instagram (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 
 ### Semana 3
 
