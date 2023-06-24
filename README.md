@@ -1,6 +1,6 @@
 # Lista de Exercícios DREW
 
-Este é um repositório contendo uma lista de exercícios do curso DevInHous, da turma Zucchetti.
+Este é um repositório contendo uma lista de exercícios do curso DevInHouse, turma Zucchetti.
 
 ---
 
