@@ -1,12 +1,14 @@
-# Lista de Exercícios DREW
+<p align="center">
+    <h1>📚 Lista de Exercícios DREW 🚀</h1>
+</p>
 
-Este é um repositório contendo uma lista de exercícios do curso DevInHouse, turma Zucchetti.
+<p align="center">Este é um repositório contendo uma lista de exercícios do curso DevInHouse, turma Zucchetti.</p>
 
-#### Características:
+#### 🎯 Características:
 
-- Divido por semanas
-- Comentários nos códigos para melhor releitura
-- Atualizado diariamente
+- Dividido por semanas 🗓️
+- Comentários nos códigos para melhor releitura 📝
+- Atualizado diariamente 🔄
 
 ## 📚 Linguagens
 
@@ -16,7 +18,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ---
 
-## Sumário
+## 📋 Sumário
 
 1. [Semana 1](#semana-1)
 2. [Semana 2](#semana-2)
@@ -25,16 +27,16 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ---
 
-### Semana 1
+### Semana-1
 
-- [[M1S03] Ex 1 - Construir página HTML (tags básicas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%201/index.html)
-- [[M1S03] Ex 2 - Construir página HTML (listas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%202/index.html)
-- [[M1S03] Ex 3 - Construir página HTML (table)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%203/index.html)
-- [[M1S03] Ex 4 - Construir página HTML com estilização CSS (Form de Cadastro)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%204)
-- [[M1S03] Ex 5 - Construir página HTML com estilização CSS (Site Flix)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%205)
-- [[M1S03] Ex 6 - Construir página HTML com estilização CSS (Site Viagens)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%206)
+- 🎈[[M1S03] Ex 1 - Construir página HTML (tags básicas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%201/index.html)
+- 🎈[[M1S03] Ex 2 - Construir página HTML (listas)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%202/index.html)
+- 🎈[[M1S03] Ex 3 - Construir página HTML (table)](https://github.com/vdr3w/trellodevinhouse/blob/main/%5BM1S03%5D%20Ex%203/index.html)
+- 🎈[[M1S03] Ex 4 - Construir página HTML com estilização CSS (Form de Cadastro)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%204)
+- 🎈[[M1S03] Ex 5 - Construir página HTML com estilização CSS (Site Flix)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%205)
+- 🎈[[M1S03] Ex 6 - Construir página HTML com estilização CSS (Site Viagens)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S03%5D%20Ex%206)
 
-### Semana 2
+### Semana-2
 
 - [[M1S04] Ex 1 - Setup Github Classroom](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 2 - Cálculo de Frete (HTML+CSS+JS)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S04%5D%20Ex%202)
@@ -47,7 +49,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - [[M1S04] Ex 9 - Calculadora Básica](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex Extra - Clone Tela Login Instagram](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 
-### Semana 3
+### 🔥 Semana 3
 
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
@@ -55,7 +57,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 
-### Semana 4
+### 🔥 Semana 4
 
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
