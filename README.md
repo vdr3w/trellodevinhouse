@@ -45,7 +45,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S04] Ex 7 - Carta Ferias](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-2/%5BM1S04%5D%20Ex%207)
 - 🎈[[M1S04] Ex 8 - Lanchonete Online](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-2/%5BM1S04%5D%20Ex%208)
 - 🎈[[M1S04] Ex 9 - Calculadora Básica](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-2/%5BM1S04%5D%20Ex%209)
-- 🎈[[M1S04] Ex Extra - Clone Tela Login Instagram (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- 🎈[[M1S04] Ex Extra - Clone Tela Login Instagram](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-2/%5BM1S04%5D%20Ex%20Extra/clone%20instagram)
 
 ### Semana 3
 
