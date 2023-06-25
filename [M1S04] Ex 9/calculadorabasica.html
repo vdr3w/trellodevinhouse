@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>[M1S04] Ex 9 - Calculadora Básica - Andre Vieira</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        margin: 0;
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 0.3s linear;
+      }
+
+      .container {
+        min-width: 390px;
+        max-width: 390px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 20px;
+      }
+
+      .container:hover {
+        transform: scale(1.02);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .calcForm {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      select,
+      input[type="number"] {
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .container-botao {
+        padding-top: 10px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #resultadoContainer {
+        display: none;
+      }
+
+      #resultadoTexto {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid #4caf50;
+        padding: 10px;
+        border-radius: 5px;
+        word-wrap: break-word;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora Básica</h1>
+      <form class="calcForm">
+        <label for="valor1">Digite o primeiro valor:</label>
+        <input type="number" id="valor1" />
+        <label for="valor2">Digite o segundo valor:</label>
+        <input type="number" id="valor2" />
+        <label for="operacao">Escolha uma operação:</label>
+        <select id="operacao">
+          <option value="">Selecione uma operação</option>
+          <option value="1">➕ SOMA</option>
+          <option value="2">➖ SUBTRAÇÃO</option>
+          <option value="3">✖️ MULTIPLICAÇÃO</option>
+          <option value="4">➗ DIVISÃO</option>
+          <option value="5">Expoente</option>
+          <option value="6">Raiz quadrada</option>
+        </select>
+        <div class="container-botao">
+          <button type="button" onclick="calcular()">Calcular</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container" id="resultadoContainer">
+      <h1>Resultado:</h1>
+      <p id="resultadoTexto"></p>
+      <div class="container-botao">
+        <button id="resetButton" type="button" onclick="resetCalc()">
+          Refazer
+        </button>
+      </div>
+    </div>
+
+    <script>
+      const operationSymbols = {
+        1: "+",
+        2: "-",
+        3: "×",
+        4: "÷",
+        5: "^",
+        6: "√",
+      };
+
+      function calcular() {
+        var valor1 = Number(document.getElementById("valor1").value);
+        var valor2 = Number(document.getElementById("valor2").value);
+        var operacao = document.getElementById("operacao").value;
+        var resultado;
+        var operacaoSimbolo = operationSymbols[operacao];
+
+        switch (operacao) {
+          case "1":
+            resultado = valor1 + valor2;
+            break;
+          case "2":
+            resultado = valor1 - valor2;
+            break;
+          case "3":
+            resultado = valor1 * valor2;
+            break;
+          case "4":
+            resultado = valor1 / valor2;
+            break;
+          case "5":
+            resultado = Math.pow(valor1, valor2);
+            break;
+          case "6":
+            resultado =
+              "Raiz de " +
+              valor1 +
+              " = " +
+              Math.sqrt(valor1) +
+              ", Raiz de " +
+              valor2 +
+              " = " +
+              Math.sqrt(valor2);
+            operacaoSimbolo = ""; // para a raiz quadrada, nós não precisamos de um símbolo entre os números
+            break;
+          default:
+            resultado = "Você não escolheu uma operação válida";
+        }
+
+        document.getElementById("resultadoTexto").innerHTML = resultado;
+        document.getElementById("resultadoContainer").style.display = "block";
+        document.getElementById(
+          "resetButton"
+        ).innerHTML = `Refazer: ${valor1} ${operacaoSimbolo} ${valor2} = ${resultado}`;
+      }
+
+      function resetCalc() {
+        document.getElementById("valor1").value = "";
+        document.getElementById("valor2").value = "";
+        document.getElementById("operacao").value = "";
+        document.getElementById("resultadoTexto").innerHTML = "";
+        document.getElementById("resultadoContainer").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
