@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu da Lanchonete</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        margin: 0;
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 0.3s linear;
+      }
+
+      .container {
+        min-width: 390px;
+        max-width: 390px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 20px;
+      }
+
+      .container:hover {
+        transform: scale(1.02);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      #pedidoForm {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      select,
+      input[type="number"] {
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .container-botao {
+        padding-top: 10px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #resultadoContainer {
+        display: none;
+      }
+
+      #resultadoTexto {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid #4caf50;
+        padding: 10px;
+        border-radius: 5px;
+        word-wrap: break-word;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Menu da Lanchonete</h1>
+      <form id="pedidoForm">
+        <label for="item">Selecione o item:</label>
+        <select id="item" name="item">
+          <option value="1123">Hamburguer - R$12,00</option>
+          <option value="3432">Sanduiche de Pernil - R$9,00</option>
+          <option value="4521">Bauru - R$15,00</option>
+          <option value="5322">Sanduiche de Mortadela - R$34,99</option>
+        </select>
+
+        <label for="quantidade">Digite a quantidade desejada:</label>
+        <input
+          type="number"
+          id="quantidade"
+          name="quantidade"
+          min="1"
+          required />
+
+        <div class="container-botao">
+          <button type="button" onclick="calcularPreco()">Fazer Pedido</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container" id="resultadoContainer">
+      <div id="resultadoTexto"></div>
+      <div class="container-botao">
+        <button type="button" onclick="fazerNovoPedido()">
+          Fazer Outro Pedido
+        </button>
+      </div>
+    </div>
+
+    <script>
+      function calcularPreco() {
+        var codigo = Number(document.getElementById("item").value);
+        var quantidade = Number(document.getElementById("quantidade").value);
+        var preco;
+        var item;
+
+        switch (codigo) {
+          case 1123:
+            preco = 12.0;
+            item = "Hamburguer";
+            break;
+          case 3432:
+            preco = 9.0;
+            item = "Sanduiche de Pernil";
+            break;
+          case 4521:
+            preco = 15.0;
+            item = "Bauru";
+            break;
+          case 5322:
+            preco = 34.99;
+            item = "Sanduiche de Mortadela";
+            break;
+          default:
+            document.getElementById("resultadoTexto").innerHTML =
+              "Código inválido";
+            return;
+        }
+
+        var valorTotal = preco * quantidade;
+        document.getElementById("resultadoTexto").innerHTML =
+          "Pedido: " +
+          item +
+          "<br>Quantidade: " +
+          quantidade +
+          "<br>Valor total: R$ " +
+          valorTotal.toFixed(2);
+        document.getElementById("resultadoContainer").style.display = "block";
+      }
+
+      function fazerNovoPedido() {
+        document.getElementById("pedidoForm").reset();
+        document.getElementById("resultadoContainer").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
