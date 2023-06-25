@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[M1S04] Ex 5 - Cálculo FGTS</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        margin: 0;
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 0.3s linear;
+      }
+
+      .container {
+        min-width: 390px;
+        min-height: 250px;
+        max-width: 390px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+      }
+
+      .container:hover {
+        transform: scale(1.02);
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      #fgtsForm {
+        margin-top: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="number"] {
+        padding: 5px;
+        width: 250px;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .container-botao {
+        padding-top: 10px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #resultadoTexto {
+        display: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid #4caf50;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        word-wrap: break-word;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de FGTS</h1>
+      <form id="fgtsForm">
+        <label for="salarioBruto">Digite seu salário bruto:</label>
+        <input
+          type="number"
+          id="salarioBruto"
+          name="salarioBruto"
+          step="0.01"
+          min="0"
+          required />
+
+        <div class="container-botao">
+          <button type="button" id="botaoCalcular">Calcular</button>
+        </div>
+      </form>
+      <div id="resultadoTexto"></div>
+    </div>
+
+    <script>
+      var botaoCalcular = document.getElementById("botaoCalcular");
+
+      botaoCalcular.addEventListener("click", function () {
+        var salarioBruto = document.getElementById("salarioBruto").value;
+        salarioBruto = Number(salarioBruto);
+        var fgtsMensal = salarioBruto * 0.08;
+        var fgtsAnual = fgtsMensal * 12;
+        var resultadoTexto = document.getElementById("resultadoTexto");
+
+        resultadoTexto.innerHTML =
+          "Salário bruto: R$" +
+          salarioBruto.toFixed(2) +
+          "<br>" +
+          "O seu FGTS mensal é: R$" +
+          fgtsMensal.toFixed(2) +
+          "<br>" +
+          "No ano, você vai receber: R$" +
+          fgtsAnual.toFixed(2);
+
+        resultadoTexto.style.display = "block";
+      });
+    </script>
+  </body>
+</html>

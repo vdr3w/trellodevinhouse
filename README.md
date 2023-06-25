@@ -36,16 +36,16 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 2
 
-- [[M1S04] Ex 1 - Github classroom (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 1 - Setup Github Classroom](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1S04] Ex 2 - Cálculo de Frete (HTML+CSS+JS)](https://github.com/vdr3w/trellodevinhouse/tree/main/%5BM1S04%5D%20Ex%202)
-- [[M1S04] Ex 3 - Cálculo de IMC (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 4 - Cálculo de média (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 5 - Cálculo FGTS (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 6 - Calculadora Salário (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 7 - Carta salário (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 8 - Lanchonete online (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex 9 - Calculadora Básica (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- [[M1S04] Ex Extra - Clone Tela Login Instagram (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 3 - Cálculo de IMC](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 4 - Cálculo de Média](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 5 - Cálculo FGTS](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 6 - Calculadora Salário](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 7 - Carta Salário](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 8 - Lanchonete Online](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex 9 - Calculadora Básica](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- [[M1S04] Ex Extra - Clone Tela Login Instagram](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 
 ### Semana 3
 
@@ -62,4 +62,3 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
 - [[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-

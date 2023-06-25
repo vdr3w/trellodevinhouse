@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[M1S04] Ex 3 - Cálculo de IMC - Andre Vieira</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Roboto", sans-serif; /* Nova linha: Define a fonte Roboto como a fonte padrão do documento */
+        margin: 0;
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 0.3s linear;
+      }
+
+      .container {
+        min-width: 390px;
+        min-height: 250px;
+        max-width: 390px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #333; /* Nova linha: Mudança da cor do texto do label */
+        font-size: 1em; /* Nova linha: Ajuste do tamanho da fonte */
+        margin-top: 15px; /* Nova linha: Adiciona espaço acima das labels */
+      }
+
+      input[type="number"] {
+        font-size: 20px;
+        padding: 10px;
+
+        /* ... */
+      }
+
+      button {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-size: 1em; /* Nova linha: Ajuste do tamanho da fonte */
+      }
+
+      button:hover {
+        background-color: #45a049;
+        transform: scale(
+          1.1
+        ); /* Nova linha: Aumento do botão ao passar o mouse */
+      }
+
+      /* Nova classe: Define o estilo do resultado */
+      .resultado {
+        text-align: left;
+        font-size: 1.2em;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de IMC</h1>
+      <form id="form-imc">
+        <label for="peso">Digite o seu peso (kg):</label>
+        <input id="peso" type="number" step="any" />
+        <label for="altura">Digite a sua altura (cm):</label>
+        <input id="altura" type="number" step="any" />
+        <div class="container-botao">
+          <button type="submit">Calcular</button>
+        </div>
+      </form>
+      <p id="resultado-texto" class="resultado-texto"></p>
+    </div>
+
+    <script>
+      document
+        .getElementById("form-imc")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var peso = Number(document.getElementById("peso").value);
+          var alturaStr = document
+            .getElementById("altura")
+            .value.replace(",", ".");
+          var altura = Number(alturaStr);
+
+          // Se a altura for maior que 10, assumimos que está em centímetros
+          if (altura > 10) {
+            altura = altura / 100;
+          }
+
+          var imc = peso / (altura * altura);
+          var resultadoTexto = document.getElementById("resultado-texto");
+
+          // Calcular IMC e fornecer conselhos baseados em IMC
+          var pesoMaxIdeal = 24.9 * altura * altura;
+
+          if (imc <= 18.5) {
+            resultadoTexto.innerHTML =
+              "IMC " + imc.toFixed(2) + ".<br>Abaixo do peso.";
+          } else if (imc >= 18.6 && imc <= 24.9) {
+            resultadoTexto.innerHTML =
+              "IMC " + imc.toFixed(2) + ".<br>Peso ideal.";
+          } else if (imc >= 25.0 && imc <= 29.9) {
+            resultadoTexto.innerHTML =
+              "IMC " +
+              imc.toFixed(2) +
+              ".<br>Sobrepeso.<br>Peso ideal até " +
+              pesoMaxIdeal.toFixed(2) +
+              " kg.";
+          } else if (imc >= 30 && imc <= 34.9) {
+            resultadoTexto.innerHTML =
+              "IMC " +
+              imc.toFixed(2) +
+              ".<br>Obesidade Grau I.<br>Peso ideal até " +
+              pesoMaxIdeal.toFixed(2) +
+              " kg.";
+          } else if (imc >= 35 && imc <= 39.9) {
+            resultadoTexto.innerHTML =
+              "IMC " +
+              imc.toFixed(2) +
+              ".<br>Obesidade Grau II.<br>Peso ideal até " +
+              pesoMaxIdeal.toFixed(2) +
+              " kg.";
+          } else {
+            resultadoTexto.innerHTML =
+              "IMC " +
+              imc.toFixed(2) +
+              ".<br>Obesidade Grau III.<br>Peso ideal até " +
+              pesoMaxIdeal.toFixed(2) +
+              " kg.";
+          }
+
+          resultadoTexto.style.display = "block";
+        });
+    </script>
+  </body>
+</html>
