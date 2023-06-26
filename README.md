@@ -49,11 +49,14 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 3
 
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- 🎈[[M1S05] Ex 1](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 2](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 3](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 4](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 5](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 6](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 7](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 8](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
 
 ### Semana 4
 
