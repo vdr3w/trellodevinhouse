@@ -3,7 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[M1S05] Ex 1 - Classifica Idade</title>
+    <title>[M1S05] Ex 7 - Destructuring</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="destructuring.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form id="form-pessoa">
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" required />
+
+        <label for="idade">Idade:</label>
+        <input id="idade" type="number" required />
+
+        <label for="profissao">Profissao:</label>
+        <input id="profissao" type="text" required />
+
+        <div class="cotainer-botao">
+          <button type="submit">Gerar Mensagem</button>
+        </div>
+      </form>
+      <p class="resultado-texto" id="mensagem"></p>
+    </div>
+    <script>
+      // Extra: Faça o destructuring acontecer diretamente na linha de declaração dos parâmetros da função. Por fim faça com uma arrow function. Se der tempo, faça uma interface com campos, rótulos, botões e parágrafos.
+      document
+        .getElementById("form-pessoa")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const nome = document.getElementById("nome").value;
+          const idade = document.getElementById("idade").value;
+          const profissao = document.getElementById("profissao").value;
+
+          // Capitalizar a primeira letra do nome e da profissao
+          function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+          }
+
+          // Aqui chamamos junto da montaMensagem a funcao de deixar a primeira letra maiuscula, antes do parametro
+          const montaMensagem = ({ nome, idade, profissao }) => {
+            return `O(a) ${capitalizeFirstLetter(
+              nome
+            )}, tem ${idade} anos e é ${capitalizeFirstLetter(profissao)}.`;
+          };
+
+          const pessoa = { nome, idade, profissao };
+          const mensagem = montaMensagem(pessoa);
+
+          document.getElementById("mensagem").style.display = "block";
+          document.getElementById("mensagem").innerText = mensagem;
+        });
+    </script>
+  </body>
 </html>

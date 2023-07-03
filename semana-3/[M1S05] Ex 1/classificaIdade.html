@@ -1,9 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[M1S05] Ex 1 - Classifica Idade</title>
+    <link rel="stylesheet" href="classificaIdade.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- < Calculadora -->
+    <div class="container">
+      <h1>Classificação de Idade</h1>
+      <form>
+        <label for="idade">Qual sua idade?</label>
+        <input type="number" class="idade" name="idade" required />
+        <br />
+        <div class="container-botao">
+          <button type="button" onclick="calcularIdade()">Mostrar >></button>
+        </div>
+      </form>
+      <div class="resultado-texto" id="resultado"></div>
+    </div>
+    <!-- > -->
+
+    <script src="./classificaIdade.js"></script>
+  </body>
 </html>
