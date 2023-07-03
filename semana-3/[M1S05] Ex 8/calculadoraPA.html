@@ -3,7 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[M1S05] Ex 1 - Classifica Idade</title>
+    <title>[M1S05] Ex 8 - Construa uma Calculadora de P.A.</title>
+    <link rel="stylesheet" href="calculadoraPA.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="calculator-container">
+      <div class="calculator" id="calculator-pa">
+        <h1>Calculadora de Progressão Aritmética</h1>
+        <label for="a1-pa">Primeiro termo (a1):</label>
+        <input type="number" id="a1-pa" name="a1-pa" />
+        <label for="r-pa">Razão (r):</label>
+        <input type="number" id="r-pa" name="r-pa" />
+        <label for="n-pa">Número de termos (n):</label>
+        <input type="number" id="n-pa" name="n-pa" />
+        <button onclick="calcularPA()">Calcular PA</button>
+      </div>
+
+      <div class="calculator" id="calculator-pg">
+        <h1>Calculadora de Progressão Geométrica</h1>
+        <label for="a1-pg">Primeiro termo (a1):</label>
+        <input type="number" id="a1-pg" name="a1-pg" />
+        <label for="r-pg">Razão (q):</label>
+        <input type="number" id="r-pg" name="r-pg" />
+        <label for="n-pg">Número de termos (n):</label>
+        <input type="number" id="n-pg" name="n-pg" />
+        <button onclick="calcularPG()">Calcular PG</button>
+      </div>
+    </div>
+    <div class="result">
+      <p id="resultado"></p>
+    </div>
+    <script src="calculadoraPA.js"></script>
+  </body>
 </html>
