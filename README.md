@@ -49,22 +49,14 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 3
 
-- 🎈[[M1S05] Ex 1 - Classifica Idade(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 2 - Procura Min Max(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 3 - Concatenar & Mesclar(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 4 - Tabuada(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 5 - Parâmetros Infinitos(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 6 - Palíndromo(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 7 - Destructuring(WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 8 - Construa uma Calculadora de P.A. (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 1 - Classifica Idade](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 2 - Procura Min Max](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 3 - Concatenar & Mesclar (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 4 - Tabuada (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 5 - Parâmetros Infinitos (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 6 - Palíndromo (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 7 - Destructuring](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
-- 🎈[[M1S05] Ex 8 - Calculadora de Progressão Aritmética (P.A.) (WIP)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-3)
+- 🎈[[M1S05] Ex 1 - Classifica Idade](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%201)
+- 🎈[[M1S05] Ex 2 - Procura Min Max](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%202)
+- 🎈[[M1S05] Ex 3 - Concatenar & Mesclar](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%203)
+- 🎈[[M1S05] Ex 4 - Tabuada](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%204)
+- 🎈[[M1S05] Ex 5 - Parâmetros Infinitos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%205)
+- 🎈[[M1S05] Ex 6 - Palíndromo](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%206)
+- 🎈[[M1S05] Ex 7 - Destructuring](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%207)
+- 🎈[[M1S05] Ex 8 - Construa uma Calculadora de P.A.](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-3/%5BM1S05%5D%20Ex%208)
 
 ### Semana 4
 
