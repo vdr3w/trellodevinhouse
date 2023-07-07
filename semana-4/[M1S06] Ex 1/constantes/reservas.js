@@ -3,7 +3,7 @@ export const reservas = [
 
   {
     numeroQuarto: 101,
-    cliente: "Drew Silva",
+    cliente: "Drew Vieira",
     cpf: "123.456.789-00",
     periodo: "01/07/23 a 07/07/23",
     acoes: "<button>Deletar</button>",
