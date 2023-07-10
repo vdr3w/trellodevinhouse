@@ -60,8 +60,11 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 4
 
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
-- 🎈[[M1SXX] Ex X (sem link)](https://github.com/vdr3w/trellodevinhouse/tree/main#semana-1)
+- 🎈[[M1S06] Tela de login](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-4)
+- 🎈[[M1S06] Tela de listagem de reservas](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-4)
+- 🎈[[M1S06] Botão logout](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-4)
+- 🎈[[M1S06] Botão deletar reserva](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-4)
+
+### Semana 5
+
+- 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
