@@ -67,4 +67,10 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 5
 
-- 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 1 - Classe Colaborador](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 2 - Classe Fatura](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 3 - Classe Personagem](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 4 - Subclasses Animal](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 5 - Classe Área](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 6 - Classe Juros](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 7 - Classe Usuário](https://github.com/vdr3w/trellodevinhouse)
