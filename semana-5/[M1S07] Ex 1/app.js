@@ -1,5 +1,5 @@
 // Importando a classe Colaborador
-import Colaborador from "./colaborador.js";
+import Colaborador from "./Colaborador.js";
 
 // Criando um novo objeto da classe Colaborador
 const colaboradorExemplo = new Colaborador(
