@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: flex;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px; /* Adicionado para limitar a largura em dispositivos maiores */
+  width: 90%; /* Adicionado para ajustar a largura em dispositivos menores */
+}
+
+.formulario img {
+  margin-bottom: 20px;
+  max-width: 100%; /* Adicionado para garantir que a imagem não ultrapasse a largura do formulário */
+}
+
+.formulario input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #0056b3;
+}
+
+.formulario a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.formulario a:hover {
+  color: #0056b3;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.login-container {
+  animation: fadeIn 0.5s;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+  .formulario {
+    padding: 20px;
+  }
+}
