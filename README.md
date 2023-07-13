@@ -70,4 +70,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
 - 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
 - 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
+🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
+🎈[[M1S07] W.I.P](https://github.com/vdr3w/trellodevinhouse)
 
