@@ -22,6 +22,8 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 2. [Semana 2](#semana-2)
 3. [Semana 3](#semana-3)
 4. [Semana 4](#semana-4)
+5. [Semana 5](#semana-5)
+6. [Semana 6](#semana-6)
 
 ---
 
@@ -67,10 +69,20 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 5
 
-- 🎈[[M1S07] Ex 1 - Classe Colaborador](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 2 - Classe Fatura](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 3 - Classe Personagem](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 4 - Subclasses Animal](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 5 - Classe Área](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 6 - Classe Juros](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S07] Ex 7 - Classe Usuário](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S07] Ex 1 - Classe Colaborador](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%201)
+- 🎈[[M1S07] Ex 2 - Classe Fatura](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%202)
+- 🎈[[M1S07] Ex 3 - Classe Personagem](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%203)
+- 🎈[[M1S07] Ex 4 - Subclasses Animal](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%204)
+- 🎈[[M1S07] Ex 5 - Classe Área](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%205)
+- 🎈[[M1S07] Ex 6 - Classe Juros](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%206)
+- 🎈[[M1S07] Ex 7 - Classe Usuário](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-5/%5BM1S07%5D%20Ex%207)
+
+### Semana 6
+
+- 🎈[[M1S08] Ex 1 - Continuando projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 2 - Criando tela de cadastro de reserva](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 3 - Cadastrando reserva com fetch](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 4 - Listando reservas com fetch](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 5 - Melhore o projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 6 - Deletar uma reserva com fetch](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+- 🎈[[M1S08] Ex 7 - SpeechRecognition](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
