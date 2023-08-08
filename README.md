@@ -91,15 +91,14 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 7
 
-- 🎈[[M1S09] Descrição do projeto - Github classroom](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 1 - Criação de projeto](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 2 - Criação componente Header](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 3 - Criação componente Formulário de cadastro de medicamento](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 4 - Criação de data object com dados dos medicamentos](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 5 - Criação função para adicionar novo medicamento](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 6 - Criação função para favoritar medicamento](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 7 - Criação de componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S09] Ex 8 - Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 1 - Criação de projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%201)
+- 🎈[[M1S09] Ex 2 - Criação componente Header](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%202)
+- 🎈[[M1S09] Ex 3 - Criação componente Formulário de cadastro de medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%203)
+- 🎈[[M1S09] Ex 4 - Criação de data object com dados dos medicamentos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%204)
+- 🎈[[M1S09] Ex 5 - Criação função para adicionar novo medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%205)
+- 🎈[[M1S09] Ex 6 - Criação função para favoritar medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%206)
+- 🎈[[M1S09] Ex 7 - Criação de componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%207)
+- 🎈[[M1S09] Ex 8 - Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-7/%5BM1S09%5D%20Ex%208)
 
 ### Semana 8
 
