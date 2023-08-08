@@ -24,6 +24,8 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 4. [Semana 4](#semana-4)
 5. [Semana 5](#semana-5)
 6. [Semana 6](#semana-6)
+7. [Semana 7](#semana-7)
+8. [Semana 8](#semana-8)
 
 ---
 
@@ -86,3 +88,24 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S08] Ex 5 - Melhore o projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
 - 🎈[[M1S08] Ex 6 - Deletar uma reserva com fetch](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
 - 🎈[[M1S08] Ex 7 - SpeechRecognition](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-6)
+
+### Semana 7
+
+- 🎈[[M1S09] Descrição do projeto - Github classroom](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 1 - Criação de projeto](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 2 - Criação componente Header](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 3 - Criação componente Formulário de cadastro de medicamento](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 4 - Criação de data object com dados dos medicamentos](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 5 - Criação função para adicionar novo medicamento](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 6 - Criação função para favoritar medicamento](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 7 - Criação de componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S09] Ex 8 - Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse)
+
+### Semana 8
+
+- 🎈[[M1S10] Ex 1 - Criando repositório](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 2 - Tela Sobre](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 3 - Roteamento da aplicação](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 4 - Tela Home](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 5 - Tela de cadastro de talentos](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse)
