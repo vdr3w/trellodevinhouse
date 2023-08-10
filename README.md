@@ -102,9 +102,9 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 
 ### Semana 8
 
-- 🎈[[M1S10] Ex 1 - Criando repositório](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S10] Ex 2 - Tela Sobre](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S10] Ex 3 - Roteamento da aplicação](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S10] Ex 4 - Tela Home](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S10] Ex 5 - Tela de cadastro de talentos](https://github.com/vdr3w/trellodevinhouse)
-- 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse)
+- 🎈[[M1S10] Ex 1 - Criando repositório](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%201)
+- 🎈[[M1S10] Ex 2 - Tela Sobre](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%202)
+- 🎈[[M1S10] Ex 3 - Roteamento da aplicação](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%203)
+- 🎈[[M1S10] Ex 4 - Tela Home](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%204)
+- 🎈[[M1S10] Ex 5 - Tela de cadastro de talentos](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%205)
+- 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%206)
