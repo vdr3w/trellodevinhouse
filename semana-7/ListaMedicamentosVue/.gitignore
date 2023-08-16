@@ -16,8 +16,11 @@ coverage
 
 /cypress/videos/
 /cypress/screenshots/
+/semana-7/ListaMedicamentosVue/node_modules
+/semana-8/cadastro-talentos-vue/node_modules
 
 # Editor directories and files
+semana-7/ListaMedicamentosVue/.vscode
 .vscode/*
 !.vscode/extensions.json
 .idea
