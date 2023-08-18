@@ -14,6 +14,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 ![CSS3](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=black)
 ![Javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ---
 
@@ -120,7 +121,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%206)
 
 ### Semana 9
-![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 - 🎈[[M1S11] Ex 1 - Criação de projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
 - 🎈[[M1S11] Ex 2 - Estilização componente Header](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
