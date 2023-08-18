@@ -1,11 +1,19 @@
 <template>
-  <header></header>
+  <header>
+    <Menu> </Menu>
+  </header>
 
   <main>
-    <TheWelcome />
+    <router-view></router-view>
   </main>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    AndreV - DevInHouse / Turma Zucchetti
+  </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import Menu from "./components/Menu/Menu.vue";
+</script>
 
 <style scoped></style>
