@@ -27,6 +27,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 6. [Semana 6](#semana-6)
 7. [Semana 7](#semana-7)
 8. [Semana 8](#semana-8)
+9. [Semana 9](#semana-9)
 
 ---
 
@@ -117,3 +118,15 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S10] Ex 4 - Tela Home](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%204)
 - 🎈[[M1S10] Ex 5 - Tela de cadastro de talentos](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%205)
 - 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%206)
+
+### Semana 9
+![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+
+- 🎈[[M1S11] Ex 1 - Criação de projeto](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 2 - Estilização componente Header](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 3 - Configuração do Vue router](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 4 - Criação página para Formulário de cadastro de medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 5 - Criação de link para a página de Formulário de cadastro de medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 6 - Alteração na função para adicionar novo medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 7 - Estilização do componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[[M1S11] Ex 8 - Receber dados para Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
