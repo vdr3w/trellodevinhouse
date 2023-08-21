@@ -9,8 +9,11 @@
           <input
             type="text"
             id="form3Example1"
-            class="form-control"
+            :class="['form-control', validationErrors.name ? 'is-invalid' : '']"
             v-model="name" />
+          <div v-if="validationErrors.name" class="invalid-feedback">
+            {{ validationErrors.name }}
+          </div>
         </div>
       </div>
       <div class="col">
@@ -19,32 +22,50 @@
           <input
             type="email"
             id="form3Example2"
-            class="form-control"
+            :class="[
+              'form-control',
+              validationErrors.email ? 'is-invalid' : '',
+            ]"
             v-model="email" />
+          <div v-if="validationErrors.email" class="invalid-feedback">
+            {{ validationErrors.email }}
+          </div>
         </div>
       </div>
     </div>
     <div class="row mb-4">
       <div class="col">
         <div class="form-outline">
-          <label class="form-label" for="form3Example1"
+          <label class="form-label" for="form3Example4"
             >Data de Nascimento</label
           >
           <input
             type="date"
-            id="form3Example1"
-            class="form-control"
+            id="form3Example4"
+            :class="[
+              'form-control',
+              validationErrors.date_birth ? 'is-invalid' : '',
+            ]"
             v-model="date_birth" />
+          <div v-if="validationErrors.date_birth" class="invalid-feedback">
+            {{ validationErrors.date_birth }}
+          </div>
         </div>
       </div>
       <div class="col">
         <div class="form-outline">
-          <label class="form-label" for="form3Example2">WhatsApp</label>
+          <label class="form-label" for="form3Example5">WhatsApp</label>
           <input
             type="tel"
-            id="form3Example2"
-            class="form-control"
+            id="form3Example5"
+            :class="[
+              'form-control',
+              validationErrors.phone ? 'is-invalid' : '',
+            ]"
             v-model="phone" />
+          <div v-if="validationErrors.phone" class="invalid-feedback">
+            {{ validationErrors.phone }}
+          </div>
         </div>
       </div>
     </div>
@@ -180,10 +201,11 @@ export default {
 
       stacks: ["Fullstack", "Frontend", "Backend"],
       nivels_pro: ["Junior", "Pleno", "Senior"],
+      validationErrors: {},
     };
   },
   methods: {
-    handleSubmit() {
+    async handleSubmit() {
       try {
         const schema = yup.object().shape({
           name: yup.string().required("Nome é Obrigatório"),
@@ -191,16 +213,29 @@ export default {
             .string()
             .email("Email inválido")
             .required("Email é obrigatório"),
-          area: yup.string().required("Area é Obrigatória"),
+          date_birth: yup.string().required("Data de Nascimento é Obrigatória"),
+          phone: yup
+            .string()
+            .matches(/^\d+$/, "O WhatsApp deve conter apenas números")
+            .required("WhatsApp é obrigatório"),
         });
 
-        schema.validateSync({
-          name: this.name,
-          email: this.email,
-          area: this.area,
-        });
+        await schema.validate(
+          {
+            name: this.name,
+            email: this.email,
+            date_birth: this.date_birth,
+            phone: this.phone,
+          },
+          { abortEarly: false }
+        );
+
+        this.validationErrors = {};
       } catch (error) {
-        alert("Erro no formulario");
+        this.validationErrors = error.inner.reduce((acumulador, erro) => {
+          acumulador[erro.path] = erro.message;
+          return acumulador;
+        }, {});
       }
     },
   },
@@ -220,5 +255,14 @@ export default {
   font-weight: bold;
   color: #999;
   text-align: center;
+}
+
+.is-invalid {
+  border-color: red;
+}
+
+.invalid-feedback {
+  color: red;
+  font-size: 12px;
 }
 </style>
