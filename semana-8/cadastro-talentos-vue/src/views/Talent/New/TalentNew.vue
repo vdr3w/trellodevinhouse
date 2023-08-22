@@ -186,6 +186,7 @@
 
 <script>
 import * as yup from "yup";
+import axios from "axios";
 
 export default {
   data() {
@@ -220,22 +221,25 @@ export default {
             .required("WhatsApp é obrigatório"),
         });
 
-        await schema.validate(
-          {
+        await axios({
+          url: "http://localhost:3000/talentos",
+          method: "POST",
+          data: {
             name: this.name,
             email: this.email,
             date_birth: this.date_birth,
             phone: this.phone,
+            area: this.area,
+            skills: this.skills,
           },
-          { abortEarly: false }
-        );
+        });
 
-        this.validationErrors = {};
+        alert("Cadastro realizado com sucesso");
+        this.$router.push("/");
       } catch (error) {
-        this.validationErrors = error.inner.reduce((acumulador, erro) => {
-          acumulador[erro.path] = erro.message;
-          return acumulador;
-        }, {});
+        if (error.response?.data?.message) {
+          alert(error.response.data.message);
+        }
       }
     },
   },
