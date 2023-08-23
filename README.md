@@ -29,6 +29,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 7. [Semana 7](#semana-7)
 8. [Semana 8](#semana-8)
 9. [Semana 9](#semana-9)
+10. [Semana 10](#semana-10)
 
 ---
 
@@ -133,3 +134,15 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S11] Ex 7 - Estilização do componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
 - 🎈[[M1S11] Ex 8 - Receber dados para Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
 - 🎈[PROJETO - Cadastro Medicamentos](https://github.com/DEVinZucchetti/atividade-semana-11-loops/tree/main/AndreV/atividade-andrev)
+
+### Semana 10
+![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+- 🎈[[M1S12] Ex 1 - Criando repositório](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%201/%5BM1S12%5D%20Ex%201.md)
+- 🎈[[M1S12] Ex 2 - Tela de listagem de produtos](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%202/%5BM1S12%5D%20Ex%202.md)
+- 🎈[[M1S12] Ex 3 - Tela de carrinho](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%203/%5BM1S12%5D%20Ex%203.md)
+- 🎈[[M1S12] Ex 4 - Vuex](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%204/%5BM1S12%5D%20Ex%204.md)
+- 🎈[[M1S12] Ex 5 - Criando o estado de carrinho](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%205/%5BM1S12%5D%20Ex%205.md)
+- 🎈[[M1S12] Ex 6 - Inserindo produto no carrinho](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%206/%5BM1S12%5D%20Ex%206.md)
+- 🎈[[M1S12] Ex 7 - Consumindo produto no carrinho](https://github.com/vdr3w/trellodevinhouse/blob/main/semana-10/%5BM1S12%5D%20Ex%207/%5BM1S12%5D%20Ex%207.md)
+- 🎈[PROJETO - EcommerceVue](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-10/EcommerceVue-m1s12)
