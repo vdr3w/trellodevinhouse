@@ -119,6 +119,7 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S10] Ex 4 - Tela Home](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%204)
 - 🎈[[M1S10] Ex 5 - Tela de cadastro de talentos](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%205)
 - 🎈[[M1S10] Ex 6 - Cadastro com axios](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/%5BM1S10%5D%20Ex%206)
+- 🎈[PROJETO - Cadastro de Talentos](https://github.com/vdr3w/trellodevinhouse/tree/Semana8-Exercicios/semana-8/cadastro-talentos-vue)
 
 ### Semana 9
 ![VueJS](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -131,3 +132,4 @@ Este é um repositório contendo uma lista de exercícios do curso DevInHouse, t
 - 🎈[[M1S11] Ex 6 - Alteração na função para adicionar novo medicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
 - 🎈[[M1S11] Ex 7 - Estilização do componente CardMedicamento](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
 - 🎈[[M1S11] Ex 8 - Receber dados para Exibição de lista de medicamentos](https://github.com/vdr3w/trellodevinhouse/tree/main/semana-9)
+- 🎈[PROJETO - Cadastro Medicamentos](https://github.com/DEVinZucchetti/atividade-semana-11-loops/tree/main/AndreV/atividade-andrev)
