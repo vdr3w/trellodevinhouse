@@ -17,3 +17,7 @@ Endpoint para o POST de um novo medicamento:
 http://localhost:50001/medicamentos
 
 Ela foi criada usando JSON-SERVER.
+
+
+Exercicio Finalizado:
+https://github.com/DEVinZucchetti/atividade-semana-11-loops/tree/main/AndreV/atividade-andrev
