@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "https://costageek.com.br/cdn/shop/files/S7d003b6d27714899a6ec6c7d99d520fe1_a44746ef-dfa8-40e6-b5d5-1ad709f06d94-removebg-preview.png?v=1691421174",
+      "nome": "Naruto Uzumaki",
+      "preco": 89.9,
+      "parcela": 8.99
+    },
+    {
+      "id": 2,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1002138/funko_pop_sasuke_com_a_marca_da_maldicao_naruto_shippuden_3237_1_58693becb74d7538892e6d9e30ebaabe.png",
+      "nome": "Sasuke Uchiha",
+      "preco": 50.0,
+      "parcela": 5.0
+    },
+    {
+      "id": 3,
+      "imagem": "https://i.pinimg.com/originals/39/89/67/398967e5233cdaf0c4407986979f4d61.png",
+      "nome": "Sakura Haruno",
+      "preco": 75.0,
+      "parcela": 7.5
+    },
+    {
+      "id": 4,
+      "imagem": "https://magicians-circle.com/wp-content/uploads/2023/06/1199.png",
+      "nome": "Kakashi Hatake",
+      "preco": 60.0,
+      "parcela": 6.0
+    },
+    {
+      "id": 5,
+      "imagem": "https://www.lojatoyscollections.com.br/cdn/shop/products/funko-itachi-with-crows2_1200x1200.jpg?v=1656527797",
+      "nome": "Itachi Uchiha",
+      "preco": 95.0,
+      "parcela": 9.5
+    },
+    {
+      "id": 6,
+      "imagem": "https://funkoeurope.com/cdn/shop/files/71171_Naruto_HinataHyugaTwinLionFists_POP_GLAM-WEB.png?v=1689331501",
+      "nome": "Hinata Hyuga",
+      "preco": 45.0,
+      "parcela": 4.5
+    },
+    {
+      "id": 7,
+      "imagem": "https://magicians-circle.com/wp-content/uploads/2023/06/728.png",
+      "nome": "Gaara do Deserto",
+      "preco": 70.0,
+      "parcela": 7.0
+    },
+    {
+      "id": 8,
+      "imagem": "https://acdn.mitiendanube.com/stores/001/761/946/products/jiraia1-500157443b47e2c2ee16595928018604-1024-1024.jpg",
+      "nome": "Jiraiya",
+      "preco": 55.0,
+      "parcela": 5.5
+    },
+    {
+      "id": 9,
+      "imagem": "https://i5.walmartimages.com/seo/Funko-POP-Animation-Naruto-Orochimaru_440f52ff-42eb-4ecf-8e23-ee28afa82910_1.f0f1af6c64fe97f31e90a66a3cd1b2fc.png",
+      "nome": "Orochimaru",
+      "preco": 65.0,
+      "parcela": 6.5
+    },
+    {
+      "id": 10,
+      "imagem": "https://cdn.awsli.com.br/800x800/1946/1946743/produto/163192392/4b58eb0186.jpg",
+      "nome": "Tsunade Senju",
+      "preco": 80.0,
+      "parcela": 8.0
+    }
+  ]
+}
